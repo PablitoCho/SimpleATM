@@ -9,6 +9,7 @@
  3. ATM cannot execute transactions, it just asks Bank to do that. (API execute_tx)
  4. ATM writes log for every transaction.
  5. Bank refresh its database(`bank.database`) after every successful transaction. It doen not if transactions fail.
+ 6. PIN number is encrypted(SHA256) and stored in database.
 
 ## Instruction
  1. Clone repository.
