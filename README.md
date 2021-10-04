@@ -12,10 +12,11 @@
  6. PIN number is encrypted(SHA256) and stored in database.
 
 ## Instruction
- 1. Clone repository.
- 2. Make sure that classes.py, RunATM.py and bank.database are at same directory.
- 3. In CMD prompt, type `python RunATM.py` and press enter.
- 4. Follow guidances the prompt gives you. :)
+ 1. Clone repository. (`git clone https://github.com/PablitoCho/SimpleATM.git`)
+ 2. Move to the cloned repository (`cd SimpleATM`)
+ 3. Make sure that classes.py, RunATM.py and bank.database are at same directory.
+ 4. In CMD prompt, type `python RunATM.py` and press enter.
+ 5. Follow guidances the prompt gives you. :)
 
  (I just used python standard libraries so that no additional installation is necessary.)
 
