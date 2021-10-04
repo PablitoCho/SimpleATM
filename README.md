@@ -19,7 +19,7 @@
 
  (I just used python standard libraries so that no additional installation is necessary.)
 
-## Guidance
+## Tips :)
  For your convenience, I added 4 cards information. See the table below.
 
 | card no.   |      PIN    |
