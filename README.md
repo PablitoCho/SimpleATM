@@ -14,7 +14,7 @@
 ## Instruction
  1. Clone repository.
  2. Make sure that classes.py, RunATM.py and bank.database are at same directory.
- 3. In CMD prompt, type 'python RunATM.py' and enter.
+ 3. In CMD prompt, type `python RunATM.py` and press enter.
  4. Follow guidances the prompt gives you. :)
 
  (I just used python standard libraries so that no additional installation is necessary.)
