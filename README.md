@@ -7,7 +7,7 @@
  1. ATM does not have any card and account information. Only Bank does.
  2. A bank API wouldn't give the ATM the PIN number, but it can tell you if the PIN number is correct or not. (API check_PIN)
  3. ATM cannot execute transactions, it just asks Bank to do that. (API execute_tx)
- 4. ATM writes log for every transaction.
+ 4. ATM writes log for every transaction.(`transactions.log`)
  5. Bank refresh its database(`bank.database`) after every successful transaction. It doen not if transactions fail.
  6. PIN number is encrypted(SHA256) and stored in database.
 
@@ -29,7 +29,7 @@
 | 1002-2222-4444-5555 | 8888 |
 | 1234-5678-9012 | 1234 |
 
-If you want to add new card or delete existing card information, see notebook `Debug.ipynb`.
+If you want to add new card or delete existing card, see notebook `Debug.ipynb`.
 
 ## Classes
  1. **Bank**: Simulate how bank works. It gives ATM necessary APIs. Json file `bank.database` acts like bank database. It is updated when card or account information changes.
